@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 import './Templates.css';
 import Moment from 'react-moment';
 import 'moment/locale/ko';
-import batt from './images/batt.png';
-import signal from './images/signal.png';
-import wifi from './images/wifi.png';
+import batt from './images/batt.svg';
+import signal from './images/signal.svg';
+import wifi from './images/wifi.svg';
 
 const now = new Date();
 
