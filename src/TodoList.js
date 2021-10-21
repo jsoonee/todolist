@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import TodoItems from './TodoItems';
 import Templates from './Templates';
-import './TodoList.css';
+import './css/TodoList.css';
 
 
 
@@ -40,20 +40,24 @@ class TodoList extends Component {
 
     render(){
         return(
-            <div className="phone">
-                <Templates/>
-                <div className="todoListMain">
-                    <div className="header">
-                        <form onSubmit={this.addItem}>
-                            <input ref={(a) => this._inputElement = a} 
-                            placeholder="할 일을 입력하세요">
-                            </input>
-                            <button type="submit">추가</button>
-                        </form>
+            <div className="app">
+                <div className="phone">
+                    <Templates/>
+                    <div className="todoListMain">
+                        <div className="header">
+                            <form onSubmit={this.addItem}>
+                                <input ref={(a) => this._inputElement = a} 
+                                placeholder="할 일을 입력하세요">
+                                </input>
+                                <button type="submit">추가</button>
+                            </form>
+                        </div>
+                        <div className="listWrap">
+                            <TodoItems 
+                            entries={this.state.items}
+                            delete={this.deleteItem}/>
+                        </div>
                     </div>
-                    <TodoItems 
-                    entries={this.state.items}
-                    delete={this.deleteItem}/>
                 </div>
             </div>
         );

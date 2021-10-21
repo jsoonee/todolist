@@ -1,6 +1,6 @@
 @font-face {
     font-family: Roboto;
-    src: url('./fonts/Roboto-Regular.ttf') format('truetype');
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
 }
 
 .hour {
@@ -9,24 +9,6 @@
     font-size: 13pt;
     padding: 13px 0 0 16px;
     font-weight: bold;
-    letter-spacing: -1px;
-}
-
-.colon {
-    font-family: Roboto;
-    float: left;
-    font-weight: bolder;
-    font-size: 14pt;
-    padding: 10px 0 0 0;
-}
-
-.minute {
-    font-family: Roboto;
-    float: left;
-    font-size: 13pt;
-    padding: 13px 0 0 0.5px;
-    font-weight: bold;
-    letter-spacing: -0.2px;
 }
 
 #batt {
@@ -49,8 +31,8 @@
 
 .mhead {
     position: relative;
-    width: 270px;
-    font-size: 15pt;
+    width: 60%;
+    font-size: 1.2rem;
     min-height: 42px;
     top: -10px;
     border-bottom-left-radius: 30px;
