@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/todolist/static/css/main.954e7a33.chunk.css",
+    "main.css": "/todolist/static/css/main.b88f7135.chunk.css",
     "main.js": "/todolist/static/js/main.50e101c5.chunk.js",
     "main.js.map": "/todolist/static/js/main.50e101c5.chunk.js.map",
     "runtime-main.js": "/todolist/static/js/runtime-main.85dc0c55.js",
@@ -8,7 +8,7 @@
     "static/js/2.2a48c7b7.chunk.js": "/todolist/static/js/2.2a48c7b7.chunk.js",
     "static/js/2.2a48c7b7.chunk.js.map": "/todolist/static/js/2.2a48c7b7.chunk.js.map",
     "index.html": "/todolist/index.html",
-    "static/css/main.954e7a33.chunk.css.map": "/todolist/static/css/main.954e7a33.chunk.css.map",
+    "static/css/main.b88f7135.chunk.css.map": "/todolist/static/css/main.b88f7135.chunk.css.map",
     "static/js/2.2a48c7b7.chunk.js.LICENSE.txt": "/todolist/static/js/2.2a48c7b7.chunk.js.LICENSE.txt",
     "static/media/Templates.css": "/todolist/static/media/Roboto-Regular.a8d6ac03.ttf",
     "static/media/batt.3f57d4d7.svg": "/todolist/static/media/batt.3f57d4d7.svg",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.85dc0c55.js",
     "static/js/2.2a48c7b7.chunk.js",
-    "static/css/main.954e7a33.chunk.css",
+    "static/css/main.b88f7135.chunk.css",
     "static/js/main.50e101c5.chunk.js"
   ]
 }
