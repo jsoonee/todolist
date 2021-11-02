@@ -20,7 +20,7 @@ class Templates extends Component {
                 <img src={wifi} alt="wifi" id="wifi"/>
                 <img src={signal} alt="signal" id="signal"/>
                 <div className="mhead">
-                    <a href="/"><div className="mhead-content">오늘 할 일은?</div></a>
+                    <a href="./"><div className="mhead-content">오늘 할 일은?</div></a>
                 </div>
                 <div className="day"><Moment format="M월 D일 (dd)">{now}</Moment></div>
             </div>
